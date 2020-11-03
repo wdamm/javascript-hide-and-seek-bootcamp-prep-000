@@ -25,7 +25,18 @@ for (let i = 0; i < list.length; i++) {
 
 function deepestChild() {
 const strt = document.querySelectorAll('#grand-node');
-for (let i = 0; i < )
+
+let i = 0
+
+while (i < 100) {
+  if (strt) {
+    strt + 
+  }
+}
+
+
+
+
 }
 
 
