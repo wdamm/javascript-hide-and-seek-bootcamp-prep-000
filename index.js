@@ -24,7 +24,7 @@ for (let i = 0; i < list.length; i++) {
 
 
 function deepestChild() {
-node = document.getElementById('grand-node')
+var node = document.getElementById('grand-node')
   while (node.children.length > 0) {
     node = node.children[0]
   }
