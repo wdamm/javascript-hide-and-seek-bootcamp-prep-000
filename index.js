@@ -24,12 +24,11 @@ for (let i = 0; i < list.length; i++) {
 
 
 function deepestChild() {
-var strt = document.querySelectorAll('#grand-node');
-
-while (strt.children.length > 0) {
-  strt = strt.children[0];
-}
-return strt;
+node = document.getElementById('grand-node')
+  while (node.children.length > 0) {
+    node = node.children[0]
+  }
+  return node
 }
 
 
