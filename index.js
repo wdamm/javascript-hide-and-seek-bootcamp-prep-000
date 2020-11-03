@@ -30,7 +30,7 @@ let i = 0
 
 while (i < 100) {
   if (strt) {
-    strt + 
+    strt + [0].children
   }
 }
 
